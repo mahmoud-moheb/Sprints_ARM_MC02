@@ -17,7 +17,7 @@ https://youtu.be/4hymKCoVO2E
 ---------------------------------------------------------------------------------------
 COTS folder
 Contain MCAL drivers for ClockControl,SysTick,Interrupt and GPIO 
-contain Hal drivers for Led
-contain services drivers for standered type and bit math
+Contain Hal drivers for Led
+Contain services drivers for standered type and bit math
 blinking led project folder contains Keil files for the project
 ---------------------------------------------------------------------------------------
