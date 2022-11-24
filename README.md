@@ -9,10 +9,15 @@ https://youtu.be/LxLe8Y4fLTY
 explination of SysTick drivers from the link below
 https://youtu.be/xyLo593EktI
 ---------------------------------------------------------------------------------------
+explination of Interrupt drivers from the link below
+
+---------------------------------------------------------------------------------------
 explination of project simulation using Keil from the link below
 https://youtu.be/4hymKCoVO2E
 ---------------------------------------------------------------------------------------
-COTS folder contains MCAL drivers for ClockControl,SysTick and GPIO 
-also contain services drivers for standered type and bit math
+COTS folder
+Contain MCAL drivers for ClockControl,SysTick,Interrupt and GPIO 
+contain Hal drivers for Led
+contain services drivers for standered type and bit math
 blinking led project folder contains Keil files for the project
 ---------------------------------------------------------------------------------------
