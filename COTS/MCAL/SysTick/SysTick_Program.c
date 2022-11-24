@@ -43,3 +43,21 @@ void SysTickI_Disable(void)
 {
 	RESET_BIT(STCTRL,1);                 	 /* Disable SysTick Interrupt */
 }
+/***********************************************************************************************************/
+static void (*SysTick_CallBack) (void);  
+void SysTick_SetCallBack(void (*fun_ptr) (void));  	   						   /*       Prototype          */
+void SysTick_SetCallBack(void (*fun_ptr) (void))  	   						   /*create pointer to function*/
+{
+	SysTick_CallBack=fun_ptr;                 /*pointer created equal to pointer that refer to isr function*/
+}
+void SysTick_Handler(void) __attribute__((used));
+void SysTick_Handler(void) 
+{
+	/*SysTick_Disable();*/
+	GET_BITVAL(STCTRL,16);
+	SysTick_CallBack();
+	/*STCURRENT = 1;
+	SysTick_Enable();*/
+}
+
+/***********************************************************************************************************/

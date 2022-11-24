@@ -409,11 +409,6 @@
               <FileType>1</FileType>
               <FilePath>..\COTS\HAL\Led\Led_Program.c</FilePath>
             </File>
-            <File>
-              <FileName>Interrupt_Program.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\COTS\MCAL\Interrupt\Interrupt_Program.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
