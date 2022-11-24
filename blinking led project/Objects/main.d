@@ -8,4 +8,9 @@
   ..\COTS\MCAL\GPIO\GPIO_Interface.h \
   ..\COTS\MCAL\SysTick\SysTick_Private.h \
   ..\COTS\MCAL\SysTick\SysTick_Configuration.h \
-  ..\COTS\MCAL\SysTick\SysTick_Interface.h
+  ..\COTS\MCAL\SysTick\SysTick_Interface.h \
+  ..\COTS\MCAL\Interrupt\Interrupt_Private.h \
+  ..\COTS\MCAL\Interrupt\Interrupt_Configuration.h \
+  ..\COTS\MCAL\Interrupt\Interrupt_Interface.h \
+  ..\COTS\HAL\Led\Led_Private.h ..\COTS\HAL\Led\Led_Configuration.h \
+  ..\COTS\HAL\Led\Led_Interface.h

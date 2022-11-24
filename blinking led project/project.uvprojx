@@ -112,7 +112,7 @@
           <SimDllName>SARMCM3.DLL</SimDllName>
           <SimDllArguments>  -REMAP</SimDllArguments>
           <SimDlgDll>DCM.DLL</SimDlgDll>
-          <SimDlgDllArguments>-pCM4</SimDlgDllArguments>
+          <SimDlgDllArguments>-pCM4 -dLaunchPadDLL</SimDlgDllArguments>
           <TargetDllName>SARMCM3.DLL</TargetDllName>
           <TargetDllArguments> -MPU</TargetDllArguments>
           <TargetDlgDll>TCM.DLL</TargetDlgDll>
@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\COTS\Services;..\COTS\MCAL\ClockControl;..\COTS\MCAL\SysTick;..\COTS\MCAL\GPIO</IncludePath>
+              <IncludePath>..\COTS\Services;..\COTS\MCAL\ClockControl;..\COTS\MCAL\SysTick;..\COTS\MCAL\GPIO;..\COTS\HAL\Led;..\COTS\MCAL\Interrupt</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -403,6 +403,16 @@
               <FileName>SysTick_Program.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\COTS\MCAL\SysTick\SysTick_Program.c</FilePath>
+            </File>
+            <File>
+              <FileName>Led_Program.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\COTS\HAL\Led\Led_Program.c</FilePath>
+            </File>
+            <File>
+              <FileName>Interrupt_Program.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\COTS\MCAL\Interrupt\Interrupt_Program.c</FilePath>
             </File>
           </Files>
         </Group>
