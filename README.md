@@ -20,6 +20,10 @@ explination of project simulation using Keil from the link below
 
 https://youtu.be/4hymKCoVO2E
 ---------------------------------------------------------------------------------------
+Flow chart from the link below
+
+https://drive.google.com/file/d/1CT1VtpxLYCwkWmcnCmxcU1uwsJKAPnh4/view?usp=sharing
+---------------------------------------------------------------------------------------
 COTS folder
 -
 Contain MCAL drivers for ClockControl,SysTick,Interrupt and GPIO 
