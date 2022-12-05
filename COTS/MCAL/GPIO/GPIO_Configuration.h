@@ -249,10 +249,10 @@
 #define PORTEPin5_ADCInput                              Disable            
 /************************************************************************************************************/
 #define PORTFPin0_Function  	                        DIO                /*    DIO - AlternateFunction    */
-#define PORTFPin0_DigitalInputOutput                    Disable             /*        Enable - Disable       */
-#define PORTFPin0_Direction                             Output             /*         Input - Output        */
+#define PORTFPin0_DigitalInputOutput                    Enable             /*        Enable - Disable       */
+#define PORTFPin0_Direction                             Input             /*         Input - Output        */
 #define PORTFPin0_DriveStrength  	                    DS_4ma             /*    DS_2ma - DS_4ma - DS_8ma   */
-#define PORTFPin0_InternalConnection                    Off                /* OpenDrain - PullUp - PullDown */
+#define PORTFPin0_InternalConnection                    PullUp                /* OpenDrain - PullUp - PullDown */
                                                                            
 #define PORTFPin1_Function      						DIO                /*    DIO - AlternateFunction    */
 #define PORTFPin1_DigitalInputOutput                    Enable             /*        Enable - Disable       */
@@ -273,10 +273,10 @@
 #define PORTFPin3_InternalConnection                    Off                /* OpenDrain - PullUp - PullDown */
                                                                            
 #define PORTFPin4_Function       						DIO                /*    DIO - AlternateFunction    */
-#define PORTFPin4_DigitalInputOutput                    Disable            /*        Enable - Disable       */
+#define PORTFPin4_DigitalInputOutput                    Enable            /*        Enable - Disable       */
 #define PORTFPin4_Direction      						Input              /*         Input - Output        */
 #define PORTFPin4_DriveStrength 	 					DS_2ma             /*    DS_2ma - DS_4ma - DS_8ma   */
-#define PORTFPin4_InternalConnection                    Off                /* OpenDrain - PullUp - PullDown */
+#define PORTFPin4_InternalConnection                    PullUp                /* OpenDrain - PullUp - PullDown */
                                                                            
 #define PORTFPin5_Function       						DIO                /*    DIO - AlternateFunction    */
 #define PORTFPin5_DigitalInputOutput                    Disable            /*        Enable - Disable       */

@@ -1,4 +1,3 @@
-/*
 /**************************************************************************//**
  * @file     system_TM4C.c
  * @brief    CMSIS Device System Source File for
