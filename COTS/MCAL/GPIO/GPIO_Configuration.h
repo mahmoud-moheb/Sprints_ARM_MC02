@@ -155,10 +155,10 @@
 #define PORTCPin7_InternalConnection                    Off                /* OpenDrain - PullUp - PullDown */
 /************************************************************************************************************/
 #define PORTDPin0_Function  	                        DIO                /*    DIO - AlternateFunction    */
-#define PORTDPin0_DigitalInputOutput                    Disable            /*        Enable - Disable       */
+#define PORTDPin0_DigitalInputOutput                    Enable            /*        Enable - Disable       */
 #define PORTDPin0_Direction                             Input              /*         Input - Output        */
 #define PORTDPin0_DriveStrength  	                    DS_2ma             /*    DS_2ma - DS_4ma - DS_8ma   */
-#define PORTDPin0_InternalConnection                    Off                /* OpenDrain - PullUp - PullDown */
+#define PORTDPin0_InternalConnection                    PullUp                /* OpenDrain - PullUp - PullDown */
 #define PORTDPin0_ADCInput                              Disable            
 																		   
 #define PORTDPin1_Function      						DIO                /*    DIO - AlternateFunction    */
@@ -183,10 +183,10 @@
 #define PORTDPin3_ADCInput                              Disable            
 																		   
 #define PORTDPin4_Function       						DIO                /*    DIO - AlternateFunction    */
-#define PORTDPin4_DigitalInputOutput                    Disable            /*        Enable - Disable       */
+#define PORTDPin4_DigitalInputOutput                    Enable            /*        Enable - Disable       */
 #define PORTDPin4_Direction      						Input              /*         Input - Output        */
 #define PORTDPin4_DriveStrength 	 					DS_2ma             /*    DS_2ma - DS_4ma - DS_8ma   */
-#define PORTDPin4_InternalConnection                    Off                /* OpenDrain - PullUp - PullDown */
+#define PORTDPin4_InternalConnection                    PullUp                /* OpenDrain - PullUp - PullDown */
 																		   
 #define PORTDPin5_Function       						DIO                /*    DIO - AlternateFunction    */
 #define PORTDPin5_DigitalInputOutput                    Disable            /*        Enable - Disable       */
